@@ -1,0 +1,29 @@
+NNNNNNNN        NNNNNNNN   SSSSSSSSSSSSSSS 77777777777777777777 333333333333333   MMMMMMMM               MMMMMMMM
+N:::::::N       N::::::N SS:::::::::::::::S7::::::::::::::::::73:::::::::::::::33 M:::::::M             M:::::::M
+N::::::::N      N::::::NS:::::SSSSSS::::::S7::::::::::::::::::73::::::33333::::::3M::::::::M           M::::::::M
+N:::::::::N     N::::::NS:::::S     SSSSSSS777777777777:::::::73333333     3:::::3M:::::::::M         M:::::::::M
+N::::::::::N    N::::::NS:::::S                       7::::::7             3:::::3M::::::::::M       M::::::::::M
+N:::::::::::N   N::::::NS:::::S                      7::::::7              3:::::3M:::::::::::M     M:::::::::::M
+N:::::::N::::N  N::::::N S::::SSSS                  7::::::7       33333333:::::3 M:::::::M::::M   M::::M:::::::M
+N::::::N N::::N N::::::N  SS::::::SSSSS            7::::::7        3:::::::::::3  M::::::M M::::M M::::M M::::::M
+N::::::N  N::::N:::::::N    SSS::::::::SS         7::::::7         33333333:::::3 M::::::M  M::::M::::M  M::::::M
+N::::::N   N:::::::::::N       SSSSSS::::S       7::::::7                  3:::::3M::::::M   M:::::::M   M::::::M
+N::::::N    N::::::::::N            S:::::S     7::::::7                   3:::::3M::::::M    M:::::M    M::::::M
+N::::::N     N:::::::::N            S:::::S    7::::::7                    3:::::3M::::::M     MMMMM     M::::::M
+N::::::N      N::::::::NSSSSSSS     S:::::S   7::::::7         3333333     3:::::3M::::::M               M::::::M
+N::::::N       N:::::::NS::::::SSSSSS:::::S  7::::::7          3::::::33333::::::3M::::::M               M::::::M
+N::::::N        N::::::NS:::::::::::::::SS  7::::::7           3:::::::::::::::33 M::::::M               M::::::M
+NNNNNNNN         NNNNNNN SSSSSSSSSSSSSSS   77777777             333333333333333   MMMMMMMM               MMMMMMMM
+                                                                                                                 
+									NS73M FM transmitter - Arduino library																										 
+												   by SkyWodd
+
+This program is an Arduino library for the NS73M low power FM transmitter.
+NS73M is a low power FM transmitter controlable by I2C or SPI bus (only software SPI is used in this library).
+It can be used like any chinese FM car transmitter but with full control of transmission specifications.
+This include power managemnt, input volume level, emphasis, target frequency, and much other.
+
+Note: Based on software SPI function and frequency formula from Cai Maver
+(http://dduino.blogspot.fr/2012/03/arduino-and-ns73m-fm-transmitter-rttl.html)
+
+For complete details on library API please take a look at ./html/index.html ;)

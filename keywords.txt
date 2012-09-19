@@ -1,0 +1,50 @@
+#######################################
+# Syntax Coloring Map For NS73M
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+NS73M	KEYWORD1
+Pre_emphasis_t	KEYWORD1
+Input_level_t	KEYWORD1
+Mode_t	KEYWORD1
+Output_level_t	KEYWORD1
+Charge_pumps_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+mute	KEYWORD2
+unmute	KEYWORD2
+soundInputLevel	KEYWORD2
+powerOutputLevel	KEYWORD2
+tuneTo	KEYWORD2
+begin	KEYWORD2
+allReset	KEYWORD2
+reset	KEYWORD2
+preEmphasis	KEYWORD2
+piloteTone	KEYWORD2
+forcedSubCarrier	KEYWORD2
+chargePumps	KEYWORD2
+unlockDetect	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+NO_PRE_EMPHASIS	LITERAL1
+PRE_EMPHASIS_50_US	LITERAL1
+PRE_EMPHASIS_75_US	LITERAL1
+INPUT_LEVEL_LOW	LITERAL1
+INPUT_LEVEL_MEDIUM	LITERAL1
+INPUT_LEVEL_HIGH	LITERAL1
+DISABLE	LITERAL1
+ENABLE	LITERAL1
+OUTPUT_LEVEL_LOW	LITERAL1
+OUTPUT_LEVEL_MEDIUM	LITERAL1
+OUTPUT_LEVEL_HIGH	LITERAL1
+CHARGE_PUMPS_1_25	LITERAL1
+CHARGE_PUMPS_80	LITERAL1
+CHARGE_PUMPS_320	LITERAL1
