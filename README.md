@@ -9,7 +9,7 @@ This include power managemnt, input volume level, emphasis, target frequency, an
 ---
 
 Note: Based on software SPI function and frequency formula from Cai Maver
-[Cai Maver blog]: http://dduino.blogspot.fr/2012/03/arduino-and-ns73m-fm-transmitter-rttl.html
+http://dduino.blogspot.fr/2012/03/arduino-and-ns73m-fm-transmitter-rttl.html
 
 ---
 
