@@ -194,7 +194,6 @@ public:
   /**
    * Tune transmitter to a specific frequency (in hertz)
    *
-   * @todo Understand why 97.3MHz (theoric) give 98MHz (real), maybe it's an antenna tunning problem ?
    * @param frequency Target frequency in hertz
    * @param doReset Reset flag, true to reset the NS73M chipset and apply immediatly the frequency change (true by default)
    */
