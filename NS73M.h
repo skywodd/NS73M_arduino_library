@@ -85,59 +85,6 @@
 #endif
 
 /**
- * Pre-emphasis values
- *
- * @enum Pre_emphasis_t
- */
-typedef enum {
-  NO_PRE_EMPHASIS,    /*!< No pre-emphasis at all */
-  PRE_EMPHASIS_50_US, /*!< European country */
-  PRE_EMPHASIS_75_US, /*!< Other country like USA */
-} Pre_emphasis_t;
-
-/**
- * Audio input level values
- *
- * @enum Input_level_t
- */
-typedef enum {
-  INPUT_LEVEL_LOW,    /*!< Low volume input */
-  INPUT_LEVEL_MEDIUM, /*!< Medium volume input */
-  INPUT_LEVEL_HIGH,   /*!< High volume input */
-} Input_level_t;
-
-/**
- * Mode values
- *
- * @enum Mode_t
- */
-typedef enum {
-  DISABLE, /*!< Option is disable */
-  ENABLE,  /*!< Option is enable */
-} Mode_t;
-
-/**
- * Output power level values
- *
- * @enum Output_level_t
- */
-typedef enum {
-  OUTPUT_LEVEL_LOW,    /*!< Low power output */
-  OUTPUT_LEVEL_MEDIUM, /*!< Medium power output */
-  OUTPUT_LEVEL_HIGH,   /*!< High power output */
-} Output_level_t;
-
-/**
- * Charge pumps values
- *
- * @enum Charge_pumps_t
- */
-typedef enum {
-  CHARGE_PUMPS_1_25, /*!< Charge pumps at 1.25uA */
-  CHARGE_PUMPS_80,   /*!< Charge pumps at 80uA */
-} Charge_pumps_t;
-
-/**
  * @todo Understand why this two define make compilation fail
  */
 #undef abs
@@ -148,6 +95,59 @@ typedef enum {
  */
 class NS73M {
 public:
+	/**
+	 * Pre-emphasis values
+	 *
+	 * @enum Pre_emphasis_t
+	 */
+	typedef enum {
+	  NO_PRE_EMPHASIS,    /*!< No pre-emphasis at all */
+	  PRE_EMPHASIS_50_US, /*!< European country */
+	  PRE_EMPHASIS_75_US, /*!< Other country like USA */
+	} Pre_emphasis_t;
+
+	/**
+	 * Audio input level values
+	 *
+	 * @enum Input_level_t
+	 */
+	typedef enum {
+	  INPUT_LEVEL_LOW,    /*!< Low volume input */
+	  INPUT_LEVEL_MEDIUM, /*!< Medium volume input */
+	  INPUT_LEVEL_HIGH,   /*!< High volume input */
+	} Input_level_t;
+
+	/**
+	 * Mode values
+	 *
+	 * @enum Mode_t
+	 */
+	typedef enum {
+	  DISABLE, /*!< Option is disable */
+	  ENABLE,  /*!< Option is enable */
+	} Mode_t;
+
+	/**
+	 * Output power level values
+	 *
+	 * @enum Output_level_t
+	 */
+	typedef enum {
+	  OUTPUT_LEVEL_LOW,    /*!< Low power output */
+	  OUTPUT_LEVEL_MEDIUM, /*!< Medium power output */
+	  OUTPUT_LEVEL_HIGH,   /*!< High power output */
+	} Output_level_t;
+
+	/**
+	 * Charge pumps values
+	 *
+	 * @enum Charge_pumps_t
+	 */
+	typedef enum {
+	  CHARGE_PUMPS_1_25, /*!< Charge pumps at 1.25uA */
+	  CHARGE_PUMPS_80,   /*!< Charge pumps at 80uA */
+	} Charge_pumps_t;
+
   /**
    * Instanciate a new NS73M controler object
    *

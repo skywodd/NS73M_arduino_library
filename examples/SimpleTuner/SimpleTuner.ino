@@ -43,7 +43,6 @@ void setup() {
   /* Setup tuner using user-friendly begin() function */
   delay(100); // Power on delay
   tuner.begin(97300000);
-  //tuner.serialDump(); // Usefull only for debug
   
   /* Show usage message */
   Serial.println();
